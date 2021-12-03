@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Panier
+
+Application de panier d'un site e-commerce.
+
+Utilisation de **Zustand** pour le state Management.
+
+## CRA
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
