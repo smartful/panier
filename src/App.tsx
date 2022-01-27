@@ -1,11 +1,17 @@
 import React from "react";
-import "./App.css";
+import { AppBar, Box, Typography } from "@mui/material";
+import CartList from "./components/CartList";
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <h1>Panier</h1>
-    </div>
+    <Box>
+      <AppBar position="static">
+        <Typography variant="h2" ml={2}>
+          Panier
+        </Typography>
+      </AppBar>
+      <CartList />
+    </Box>
   );
 };
 
