@@ -1,11 +1,11 @@
 import React from "react";
-import { useTypedSelector } from "../hooks/useTypedSelector";
+import { useAppSelector } from "../hooks/useAppSelector";
 import { List } from "@mui/material";
 import Item from "./Item";
 import { ItemType } from "../types/cartTypes";
 
 const CartList: React.FC = () => {
-  const { cart } = useTypedSelector((state) => ({
+  const { cart } = useAppSelector((state) => ({
     cart: state.cart,
   }));
 
